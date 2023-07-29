@@ -1,0 +1,139 @@
+@font-face {
+    font-family: "fontku" ;
+    src: url("cofont.ttf") format("truetype");
+}
+
+body {
+    font-family: fontku, sans-serif ;
+}
+.container {
+    width: 1152px;
+    height: 700px;
+    margin: auto;
+    background-color: #F0F0F0;
+    /* display: flex;
+    justify-content: center; */
+}
+
+/* navigasi */
+.nav {
+    font-weight: bold;
+    width: 100%;
+    height: 64px;
+    background-color: #0080FF;
+    display: flex;
+    align-items: center;
+    margin-bottom: 139px;
+}
+
+.brand{
+    margin-left: 70px;
+    margin-right: 82px;
+}
+.menu .menu-item {
+    color: #FFFFFF;
+    margin-right: 29px;
+    text-decoration: none;
+}
+.nav .menu-item:hover{
+    opacity: 1;
+    padding-bottom: 2px;
+    border-bottom: 2px solid #000;
+}
+
+/* section 2 */
+.section2 {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    /* margin-top: 64px; */
+  }
+ 
+  .profil {
+    margin: auto;
+    position: absolute;
+    width: 134px;
+    height: 134px;
+    right: 500px;
+    top: -80px;
+    
+  }
+  
+  .kotak {
+    margin-top: 200px;
+    width: 584px;
+    height: 437px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .kotak-menu{
+    /* background-color: #0080FF;
+    /* display: flex; */
+    /* flex-direction: column;
+    background-color: #ffffff;
+    margin: 500px;
+    padding: 100px; */
+    display: flex;
+    width: 315px;
+    flex-wrap: wrap;
+    
+  }
+
+  .pilih, .jam, .hari {
+    margin: 5px;
+    border: ;
+    border: 2px solid #0080FF;
+    border-radius: 15px;
+    font-weight: bold;
+    color: #0080FF;
+  }
+
+  .pilih {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 315px;
+    height: 63px;
+    padding: 10px;
+    
+  }
+
+  .jam {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+  }
+
+  .hari {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 213px;
+    height: 63px;
+  }
+  .cta {
+    margin-top: 5px;
+    font-weight: bold;
+    color: #FFF;
+    border:#0080FF ;
+    width: 100%;
+    height: 63px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background: #0080FF;
+  }
+
+  
