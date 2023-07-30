@@ -1,0 +1,212 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+@font-face {
+  font-family: cocogoose;
+  src: url(/Slicing/Font/cocogoose.ttf);
+}
+
+body {
+  background-color: #ececec;
+}
+
+.navbar {
+  background-color: #0080ff;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 20px 30px;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.25);
+  z-index: 999;
+}
+
+.logo {
+  padding-left: 80px;
+}
+
+.navlinks {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  padding-right: 80px;
+}
+
+.navlinks a {
+  text-decoration: none;
+  color: white;
+}
+
+.navlinks a:hover {
+  color: skyblue;
+}
+
+.container {
+  width: 100%;
+  height: 300vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.introduction {
+  width: 85%;
+  height: 832px;
+  margin-top: 8rem;
+  border: 15px solid white;
+  border-radius: 15px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.25);
+}
+
+.penyampaian {
+  text-align: center;
+  margin: 5% 20%;
+}
+
+.judul {
+  font-size: 50px;
+  font-weight: 250;
+}
+
+.nama {
+  font-size: 100px;
+  font-weight: 500;
+}
+
+.isi {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.perhitungan {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 40px 150px;
+  border: none;
+  margin: 0 250px;
+  justify-content: space-between;
+}
+
+.rincian {
+  font-size: 26px;
+  text-align: center;
+}
+
+.hitung {
+  border: 3px solid #c4c4c4;
+  border-radius: 15px;
+  font-size: 36px;
+  text-align: center;
+  padding-top: 3rem;
+  width: 10rem;
+}
+
+.gabung-introduction {
+  border: 2px solid #0080ff;
+  border-radius: 15px;
+  background-color: #0080ff;
+  padding: 25px 115px;
+  margin: auto;
+}
+
+.gabung-introduction a {
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+}
+
+.gabung-introduction:hover {
+  background-color: skyblue;
+}
+
+.horizontalLine {
+  margin: auto;
+  display: inline-block;
+  width: 70%;
+}
+
+.horizontalLine hr {
+  border: 2px solid #dcdcdc;
+  border-radius: 1px;
+}
+
+.description {
+  width: 85%;
+  height: 600px;
+  border: 0px solid white;
+  border-radius: 15px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.25);
+}
+
+.picture {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 40rem;
+  border-radius: 15px;
+  box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.25);
+  z-index: 998;
+}
+
+.harga {
+  display: block;
+  position: relative;
+  text-align: left;
+  padding-left: 4rem;
+  margin: auto;
+}
+
+.judul-harga {
+  font-size: 38px;
+  font-weight: 400;
+}
+
+.harga-rupiah {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.jadwal {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.list-check {
+  list-style: none;
+  font-size: 18px;
+  font-weight: 250;
+}
+
+.gabung-description {
+  border: 2px solid #0080ff;
+  border-radius: 15px;
+  background-color: #0080ff;
+  padding: 25px 115px;
+}
+
+.gabung-description a {
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+  margin: auto;
+}
+
+.gabung-description:hover {
+  background-color: skyblue;
+}
