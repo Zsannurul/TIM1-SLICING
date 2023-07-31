@@ -14,6 +14,7 @@ body {
   background-color: #ececec;
 }
 
+/* navbar */
 .navbar {
   background-color: #0080ff;
   top: 0;
@@ -48,7 +49,10 @@ body {
 .navlinks a:hover {
   color: skyblue;
 }
+/* navbar selesai */
 
+
+/* main */
 .container {
   width: 100%;
   height: 300vh;
@@ -142,7 +146,10 @@ body {
   border: 2px solid #dcdcdc;
   border-radius: 1px;
 }
+/* bagian 1 selesai */
 
+
+/* bagian 2 */
 .description {
   width: 85%;
   height: 600px;
@@ -209,4 +216,98 @@ body {
 
 .gabung-description:hover {
   background-color: skyblue;
+}
+/* bagian 2 selesai */
+
+/* bagian 3 */
+
+.kelas-minerva {
+  margin-top: 27px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  height: ;
+  margin: 27 auto;
+}
+
+
+/* judu; */
+
+.bold-text {
+  text-align: center;
+  margin-bottom: 20px;
+  width: 100%;
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.kotak-card {
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
+}
+
+/* card acuan */
+
+.card {
+  margin: 41px 25px;
+  background-color: #C4C4C4;
+  width: 293px;
+  height: 293px;
+  border: 1px solid rgb(179, 179, 179);
+  border-radius: 30px;
+  box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+.card .header-card {
+  height: 154px;
+  background-color: #C4C4C4;
+  border-radius: 30px;
+}
+
+.card .content-card {
+  background-color: #FFFFFF;
+  position: relative;
+  bottom: 20px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 0px solid #C4C4C4;
+  border-radius: 30px;
+  height: 175px;
+  overflow: hidden;
+}
+.content-card h3 {
+  position: absolute;
+  top: 1px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  left: 110px;
+  top: 14px;
+}
+
+.content-card p {
+  font-size: 24px;
+  font-weight: 400;
+}
+.content-card button {
+  color: #ececec;
+  width: 194px;
+  height: 45 px;
+  margin: 14px auto;
+  border-radius: 15px;
+  padding: 10px;
+  text-decoration: none;
+  border: 0px;
+  background-color: #0080ff;
+  font-size: 18px;
+  font-weight: 400;
 }

@@ -23,5 +23,4 @@ live server kalian sendiri
 
 ## Screenshots
 
-![App Screenshot](SS.JPG)
-
+![gambar ss](/ss/SS.JPG)
