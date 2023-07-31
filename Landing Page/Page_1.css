@@ -10,9 +10,20 @@
   src: url(Font/cocogoose.ttf);
 }
 
+html {
+  height: 3196px;
+}
 body {
   background-color: #ececec;
 }
+
+.all {
+  background-color: #FFFFFF;
+  width: 100%;
+  height: 3196px;
+}
+
+
 
 /* navbar */
 .navbar {
@@ -55,7 +66,7 @@ body {
 /* main */
 .container {
   width: 100%;
-  height: 300vh;
+  height: 3196px;
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -222,14 +233,14 @@ body {
 /* bagian 3 */
 
 .kelas-minerva {
+  position: relative;
   margin-top: 27px;
   margin-right: auto;
   margin-left: auto;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  width: 100%;
-  height: ;
+  width: 85%;
   margin: 27 auto;
 }
 
@@ -250,7 +261,7 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   margin: auto;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 /* card acuan */
@@ -310,4 +321,90 @@ body {
   background-color: #0080ff;
   font-size: 18px;
   font-weight: 400;
+}
+/* done dulu */
+
+
+
+/* section 4 */
+.bagian-empat {
+  background-color: #0080ff;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 500px;
+}
+
+.header-testimoni {
+  color: #FFFFFF;
+  font-size: 58px;
+  font-weight: 400px;
+  margin-top: 69px;
+}
+
+.content-testimoni {
+  border: 0px ;
+  border-radius: 15px;
+  margin: auto;
+  display: flex;
+  background-color:#ffffff;
+  width: 704px;
+  height: 253px;
+  
+}
+
+.profil-testimoni {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0px;
+  border-radius: 15px;
+  background-color: #aaacad;
+  width: 278px;
+  height: 253px;
+}
+
+
+.text-testimoni {
+  width: 426px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align:left;
+  margin-left: 34px;
+}
+
+
+/* testi done */
+
+/* footer */
+
+.footer {
+  width: 100%;
+  height: 493px;
+  margin-top: 200px;
+}
+
+.content-footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+
+.footer-kiri {
+  background-color: aqua;
+  width: 50%;
+
+}
+
+.footer-kanan {
+  width: 50%;
+  background-color: #aaacad;
+}
+
+.copy {
+  width: 100%;
 }
