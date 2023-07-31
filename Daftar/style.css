@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=REM:wght@300;700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/cocogoose');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    background-color: #0080FF; /* Warna latar belakang biru */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+nav {
+    background-color: #0080FF;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    font-size: 24px;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'cocogoose', sans-serif;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li {
+    margin-left: 20px;
+    margin-top: -30px;
+}
+
+.nav-links li:first-child {
+    margin-left: 200px;
+    margin-right: 10px;
+}
+
+.nav-links li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'cocogoose', sans-serif;
+}
+
+.nav-links li a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    background-color: #ffffff; /* Warna latar belakang kotak putih */
+    width: 400px;
+    height: 400px;
+    padding: 60px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.479);
+    margin-top: 70px;
+}
+
+.container h2 {
+    text-align: center;
+    font-family: 'cocogoose', sans-serif;
+    font-size: 25px;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 95%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-family: cocogoose;
+    outline: none;
+}
+
+#password-error {
+    text-align: center;
+}
+
+.form-group .buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-group button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0080FF;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: cocogoose;
+}
+
+.form-group button.secondary {
+    background-color: #ffffff;
+    color: #0080FF;
+    outline:1px solid #0080FF;
+}
+
+.form-group button:hover {
+    background-color: #0080FF;
+}
+
+.form-group button.secondary:hover {
+    background-color: #979797;
+}
+
+
+.form-group button + button {
+    margin-left: 10px;
+}s
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.additional-text {
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    font-weight: bold; /* Menggunakan tebal */
+}
+
+.additional-text.thin {
+    font-weight: normal; /* Menggunakan tipis */
+}
+
+.additional-text.normal {
+    font-weight: normal; /* Menggunakan normal */
+}
