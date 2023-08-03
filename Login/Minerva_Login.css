@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+@font-face {
+  font-family: cocogoose;
+  src: url(Font/cocogoose.ttf);
+}
+
+body {
+  background-color: #0080ff;
+}
+
+.navbar {
+  background-color: #0080ff;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
+  position: fixed;
+  display: flex;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+  z-index: 999;
+}
+
+.Logo {
+  padding: 18px 30px;
+  margin-left: 3rem;
+}
+
+.navlinks {
+  list-style-type: none;
+}
+
+.navlinks a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  text-align: center;
+  padding: 26px 30px;
+}
+
+.nav-links {
+  float: left;
+}
+
+.nav-links a:hover {
+  color: skyblue;
+}
+
+.container {
+  border-radius: 15px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8rem;
+  margin-left: 27rem;
+  margin-right: 27rem;
+  height: 27rem;
+  text-align: center;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+  font-size: 20px;
+}
+
+.fill {
+  text-align: center;
+  border: none;
+  padding: 12px 10px;
+  outline: none;
+  font-size: 20px;
+}
+
+.horizontalLine {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+}
+
+.horizontalLine hr {
+  flex: 1;
+  border: none;
+  height: 3px;
+  background-color: #c4c4c4;
+}
+
+.Masuk {
+  border: solid #0080ff 2px;
+  border-radius: 15px;
+  padding: 10px 60px;
+  background-color: #0080ff;
+  font-size: 16px;
+}
+
+.Masuk a {
+  text-decoration: none;
+  color: white;
+}
+
+.Masuk:hover {
+  background-color: skyblue;
+}
+
+.Google {
+  border: solid #0080ff 2px;
+  border-radius: 15px;
+  padding: 10px 60px;
+  background-color: white;
+  font-size: 16px;
+}
+
+.Google a {
+  text-decoration: none;
+  color: #0080ff;
+}
+
+.Google:hover {
+  background-color: skyblue;
+}
+
+.horizontal-line {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  width: 40%;
+}
+
+.horizontal-line hr {
+  flex: 1;
+  border: none;
+  height: 3px;
+  background-color: #c4c4c4;
+}
+
+.horizontal-line span {
+  font-size: small;
+  padding: 0 10px;
+  color: #c4c4c4;
+}
+
+.kata {
+  font-size: 14px;
+}
+
+.kata a {
+  text-decoration: none;
+  color: #0080ff;
+}
+
+.kata a:hover {
+  color: blue;
+}
